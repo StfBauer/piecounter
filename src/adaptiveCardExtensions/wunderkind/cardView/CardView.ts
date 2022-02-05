@@ -38,7 +38,7 @@ export class CardView extends BaseImageCardView<IWunderkindAdaptiveCardExtension
     console.debug(myImage.src(imageContent));
     console.debug("data:image/svg+xml;base64,"+btoa(myImage.src(imageContent)));
     return {
-      primaryText: (this.state.timerCounter * Math.PI).toString(),
+      primaryText: this.state.timerCounter+" * π = "+(this.state.timerCounter * Math.PI).toString(),
       imageUrl: "data:image/svg+xml;base64,"+btoa(myImage.src(imageContent))
     };
   }
