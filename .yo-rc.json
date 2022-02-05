@@ -1,0 +1,15 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.14.0-beta.4",
+    "libraryName": "dynace",
+    "libraryId": "b693c50d-d1fe-4115-8b86-61f0061e2c83",
+    "packageManager": "npm",
+    "solutionShortDescription": "dynace description",
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Image"
+  }
+}

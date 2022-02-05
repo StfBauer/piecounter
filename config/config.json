@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wunderkind-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/wunderkind/WunderkindAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/wunderkind/WunderkindAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WunderkindAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/wunderkind/loc/{locale}.js"
+  }
+}
